@@ -29,12 +29,19 @@ apt update && apt dist-upgrade
 
 On **Debian**, install SteamCMD with all the dependencies:
 ```bash
-apt install software-properties-common && apt-add-repository non-free non-free-firmware && dpkg --add-architecture i386 && apt update && apt install steamcmd
+apt install software-properties-common
+apt-add-repository non-free non-free-firmware
+dpkg --add-architecture i386
+apt update && apt install steamcmd
 ```
 
 On **Ubuntu**, install SteamCMD with all the dependencies:
 ```bash
-apt install software-properties-common && apt-add-repository main universe restricted multiverse && dpkg --add-architecture i386 && apt update && apt install steamcmd
+apt install software-properties-common
+apt-add-repository main universe restricted multiverse 
+dpkg --add-architecture i386 
+apt update
+apt install steamcmd
 ```
 
 Install sudo and create a new user steam:
